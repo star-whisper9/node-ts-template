@@ -18,11 +18,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "latest",
-    "eslint": "latest",
-    "prettier": "latest",
-    "tsx": "latest",
-    "typescript": "latest",
-    "typescript-eslint": "latest"
+    "@types/node": "^25.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.0.0"
   }
 }
