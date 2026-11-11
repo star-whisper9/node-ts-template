@@ -3,10 +3,10 @@
 ## Tech Stack
 
 - **Runtime**: Node.js 24 LTS
-- **Language**: TypeScript (Strict Mode)
+- **Language**: TypeScript 7 (Strict Mode)
 - **Module System**: ESM (`type: module`)
-- **Linting**: ESLint (Flat Config)
-- **Formatting**: Prettier
+- **Linting**: Oxlint with type-aware rules
+- **Formatting**: Oxfmt
 
 ## Coding Standards
 
@@ -19,5 +19,6 @@
 ## Workflow
 
 - Run `npm run dev` for development (uses `tsx watch`).
-- Run `npm run lint` to check code quality.
+- Run `npm run lint` to check code quality and type-aware rules.
 - Run `npm run format` to fix formatting.
+- Run `npm run check-types` to check TypeScript types.
